@@ -88,7 +88,7 @@ Bundle 'SuperTab'
 " see :h vundle for more details or wiki for FAQ  
 " NOTE: comments after Bundle command are not allowed.. 
 
-"For ctags
+"For ctags in Mac OS
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 
 
