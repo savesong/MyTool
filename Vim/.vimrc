@@ -53,41 +53,6 @@ let Tlist_Use_SingleClick = 1
 nmap <silent> <F9> :FufFile<CR>
 nmap <silent> <F10> :FufTag<CR>
 
-"------------------------------------------------ Others ------------------------------------------------
-set nocompatible               " be iMproved  
-filetype off                   " required!  
-  
-set rtp+=~/.vim/bundle/vundle/  
-call vundle#rc()  
-  
-" let Vundle manage Vundle  
-" required!   
-"这是vundle本身的设置  
-Bundle 'gmarik/vundle'    
-   
-" My Bundles here:  
-"这里是设置你自己自定义的插件的设置vundle设置，注意：下载的插件git为：https://github.com/godlygeek/tabular.git，则设置为Bundle 'godlygeek/tabular';https://github.com/gmarik/vundle.git设置则为 Bundle 'gmarik/vundle'    
-" original repos on github  
-"Bundle 'godlygeek/tabular'  
-Bundle 'SuperTab'  
-
-" vim-scripts repos，vim-scripts的访问地址，格式则如下：  
-"Bundle 'L9'  
-"Bundle 'FuzzyFinder'  
-" non github repos ，非git的访问地址的，格式如下：  
-"Bundle 'git://git.wincent.com/command-t.git'  
-" ...  
-
-"  
-" Brief help  
-" :BundleList          - list configured bundles  
-" :BundleInstall(!)    - install(update) bundles  
-" :BundleSearch(!) foo - search(or refresh cache first) for foo  
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles  
-"  
-" see :h vundle for more details or wiki for FAQ  
-" NOTE: comments after Bundle command are not allowed.. 
-
 "For ctags in Mac OS
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 
