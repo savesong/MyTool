@@ -91,4 +91,7 @@ Bundle 'SuperTab'
 "For ctags in Mac OS
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 
+" HTML -> JavaScript string
+vmap <silent> ;h :s?^\(\s*\)+ '\([^']\+\)',*\s*$?\1\2?g<CR>
+vmap <silent> ;q :s?^\(\s*\)\(.*\)\s*$? \1 + '\2'?<CR>
 
