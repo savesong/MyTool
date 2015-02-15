@@ -42,7 +42,7 @@ set guifont=Consolas:h16
 "For taglist
 filetype on
 nnoremap <silent> <F8> :TlistToggle<CR>
-let Tlist_Auto_Open = 1
+"let Tlist_Auto_Open = 1
 "let Tlist_Display_Prototype = 1
 let Tlist_Show_Menu = 1
 let Tlist_Sort_Type = "name"
